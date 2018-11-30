@@ -9,21 +9,81 @@ body {
   line-height: 1.5;
 }
 
+#container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+#main-doc {
+  width: 70%;
+  padding: 20px 50px;
+}
+
 header {
   font-weight: 500;
+  font-size: calc(12px + 0.75vw);
+  padding: 10px 0;
+}
+
+code {
+  display: block;
+  white-space: pre;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 20px 30px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.main-section p {
+  font-size: calc(8px + 0.5vw);
+  padding: 10px 15px;
+}
+
+.main-section ul {
+  font-size: calc(8px + 0.5vw);
+  padding: 10px 45px;
+}
+
+#reference a {
+  text-decoration: none;
+}
+
+#navbar {
+  order: -1;
+  width: 25%;
+  border: 4px solid darkgray;
+  border-top: none;
+  border-bottom: none;
+}
+
+#navbar header {
   font-size: calc(14px + 0.75vw);
-  padding: 25px 50px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
 }
 
-p, ul {
-  padding: 10px 80px;
+#navbar ul {
+  list-style-type: none;
 }
 
-a {
+#navbar li {
+  padding: 10px 60px;
+  border: 1px solid black;
+  border-right: none;
+  border-left: none;
+}
+
+.nav-link {
   text-decoration: none;
   color: black;
+  font-size: 14px;
 }
 
-a:hover {
+.nav-link:hover {
   color: green;
 }
