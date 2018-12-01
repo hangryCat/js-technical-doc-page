@@ -1,0 +1,49 @@
+#container {
+  flex-flow: column nowrap;
+}
+
+#main-doc {
+  width: 100%;
+  margin-left: 0;
+  padding: 20px;
+}
+
+#navbar {
+  width: 100%;
+  overflow: scroll;
+  height: 238px;
+  border-top: 4px solid darkgray;
+  border-bottom: 4px solid darkgray;
+  position: relative;
+}
+
+#navbar header {
+  font-size: calc(15px + 1vw);
+}
+
+#navbar li {
+  padding: 10px 15px;
+}
+
+header {
+  font-size: calc(14px + 0.65vw);
+}
+
+.main-section p {
+  font-size: calc(12px + 0.5vw);
+  padding: 10px;
+}
+
+.main-section ul {
+  font-size: calc(12px + 0.5vw);
+  padding: 10px 33px;
+}
+
+code {
+  font-size: calc(8px + 0.75vw);
+  padding: 20px 8px;
+}
+
+.nav-link {
+  font-size: 15px;
+}
